@@ -1,4 +1,4 @@
-# dcm-admin-panel
+# admin-panel
 
 This is new admin dashboard for the DCM.
 
