@@ -1,6 +1,6 @@
 # admin-panel
 
-This is new admin dashboard for the DCM.
+This is new admin dashboard.
 
 Single-page application (SPA) that provides client-side rendering.
 
