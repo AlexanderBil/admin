@@ -1,0 +1,41 @@
+export default class ContentDetail {
+  constructor(data = {}) {
+    this.acquisition = data.acquisition || '';
+    this.authorPrimaryRole = data.authorPrimaryRole || '';
+    this.classification = data.classification || '';
+    this.contentLocales = data.contentLocales || {};
+    this.contentPreviewType = data.contentPreviewType || '';
+    this.created = data.created || null;
+    this.createdById = data.createdBy.id || null;
+    this.email = data.createdBy.email || null;
+    this.guid = data.createdBy.guid || '';
+    this.first = data.createdBy.first || '';
+    this.last = data.createdBy.last || '';
+    this.thumbnailUrl = data.createdBy.thumbnailUrl || '';
+    this.fullName = `${this.first} ${this.last}`;
+    this.fullName = `${this.first} ${this.last}`;
+    this.currency = data.currency || '';
+    this.healthCheckDate = data.healthCheckDate || '';
+    this.healthCheckStatus = data.healthCheckStatus || '';
+    this.id = data.id || null;
+    this.imageGallery = data.imageGallery || [];
+    this.imageGalleryType = data.imageGalleryType || '';
+    this.imageUrl = data.imageUrl || '';
+    this.ownershipSold = data.ownershipSold || false;
+    this.preview = data.preview || false;
+    this.price = data.price || null;
+    this.pricePolicy = data.pricePolicy || '';
+    this.primaryLocale = data.primaryLocale || '';
+    this.published = data.published || null;
+    this.status = data.status || '';
+    this.tags = data.tags || [];
+    this.nft = data.nft || null;
+    this.animationUrl = data.animationUrl || '';
+    this.originUrl = data.originUrl || '';
+    this.published = data.published || null;
+    this.originallyPublished = data.originallyPublished || null;
+    this.passport = data.passport || null;
+    this.status = data.status || '';
+    this.originSourceId = data.originSourceId || null;
+  }
+}
